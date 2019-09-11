@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap4 核心 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap4.1.3/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+    <script src="bootstrap4.1.3/bootstrap.bundle.min.js"></script>
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="bootstrap4.1.3/bootstrap.min.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"> -->
+
+    <!-- 自定义主页样式 -->
+    <link rel="shortcut icon" href="img/sunshine.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+    <title>主页</title>
+</head>
+
+<body>
+    <!-- 加载动画 -->
+    <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+    <div class="container-fluid index-page">
+
+        <!-- 导航栏 -->
+        <nav class="navbar navbar-expand-sm navbar-dark mynav fixed-top index-nav" id="navbar">
+            <ul class="navbar-nav">
+                <a href="blog.html"><img class="logo" src="img/logo.png" alt="logo">
+                </a>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">主页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">博客</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">留言</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- 主页 -->
+        <div class="index-page" id="index-page">
+            <div class="index-page-header" id="index-page-header">
+                <div class="bg-img"></div>
+                <div class="info-box">
+                    <img src="img/sunshine-avatar.jpeg" alt="avatar">
+                    <p class="site-name">Sunshine Website</p>
+                    <p class="site-discribe">
+                        生命不息，折腾不止！
+                    </p>
+                    <a href="about.html" class="btn-primary btn-more">more about</a>
+                </div>
+            </div>
+            <div class="index-page-body" id="index-page-body">
+
+                <!-- 资料卡片 -->
+                <div class="container">
+                    <div class="row about-block">
+                        <div class="col-lg-6 col-md-12 about-box">
+                            <div class="title">
+                                About
+                            </div>
+                            <p>
+                                &emsp;&emsp;Dreaming is the easy part. Acting on the dream is harder. Recognize that a
+                                dream is a journey. On the simplest level, it takes commitment, time, desire, and
+                                courage. But rarely is something great easily realized. Dreaming is recognizing and
+                                embracing the
+                                potential for greatness and seeking it in all areas of your life.
+                            </p>
+                            <p>
+                                &emsp;&emsp;Believe in your dreams
+                                and your ability to accomplish them. Keep your dreams in front of you. I'm here to
+                                challenge you to reach for your dream. Do not be afraid to dream. Never forget, if you
+                                can dream it, you can do it!
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 about-box">
+                            <div class="title">
+                                Basic Information
+                            </div>
+                            <div class="info">
+                                <div class="col-sm-4 info-title">
+                                    NAME:
+                                </div>
+                                <div class="col-sm-8 info-content">
+                                    孙浩杰
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="col-sm-4 info-title">
+                                    AGE:
+                                </div>
+                                <div class="col-sm-8 info-content">
+                                    20
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="col-sm-4 info-title">
+                                    EMAIL:
+                                </div>
+                                <div class="col-sm-8 info-content">
+                                    sunhaojie@ouc.edu.cn
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="col-sm-4 info-title">
+                                    PHONE:
+                                </div>
+                                <div class="col-sm-8 info-content">
+                                    +1766-971-3565
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="col-sm-4 info-title">
+                                    ADDRESS:
+                                </div>
+                                <div class="col-sm-8 info-content">
+                                    山东省青岛市崂山区松岭路沙子口街道238号
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="col-sm-4 info-title">
+                                    University:
+                                </div>
+                                <div class="col-sm-8 info-content">
+                                    Ocean University of China
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="col-sm-4 info-title">
+                                    DREAM:
+                                </div>
+                                <div class="col-sm-8 info-content">
+                                    To be a top coder!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 时间轴 -->
+                <div class="cd-container-title">
+                    Site Development
+                </div>
+                <section id="cd-timeline" class="cd-container">
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>网页要素、html基本结构、常用标签</h2>
+                            <p>根据W3C标准，一个网页主要由三部分组成： 结构 – html 描述页面结构 表现 – css 控制页面中元素的样式 行为 – JavaScript 用于响应用户操作 html
+                                (Hypertext Markup Language)– 超文本标记语言，负责网页的结构,
+                                标记是指使用 标签 的形式来标识网页中的不同组成部分,超文本是指使用 超链接 实现不同网页之间的跳转。最新版本，HTML5 (推荐使用)
+                            </p>
+                            <a href="article.html?id=7" class="cd-read-more" target="_blank">阅读全文</a>
+                            <span class="cd-date">2019-09-04</span>
+                        </div>
+                    </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>css简介、伪类、常用选择器及其优先级</h2>
+                            <p>css：层叠样式表，主要实现页面的表现效果 可以将css样式编写到元素的style属性中，称为内联样式，只对当前元素生效，不方便复用，不推荐使用 可以将css样式写到head标签内</p>
+                            <a href="article.html?id=4" class="cd-read-more"
+                                target="_blank">阅读全文</a>
+                            <span class="cd-date">2019-09-10</span>
+                        </div>
+                    </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>文本及列表标签、css基本长度颜色单位及文本和字体样式</h2>
+                            <p>在css中不能直接设置行间距，通过行高调整行间距，行高属性line-height,文字会默认在行高中垂直居中，行间距 = 行高 - 字体大小，line-height的值可以设置为px，%,数值(表示为字体大小的相应倍数)，实用技巧：可以使用行高与父元素相同而实现文本在父元素中居中
+                            </p>
+                            <a href="article.html?id=8" class="cd-read-more"
+                                target="_blank">阅读全文</a>
+                            <span class="cd-date">2019-09-10</span>
+                        </div>
+                    </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            1
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>盒子模型及其相关</h2>
+                            <p>css处理网页时，它认为每个元素都包含在一个不可见的盒子里 故css在处理网页布局的时候可以看做是在摆放一个又一个的盒子 一个盒子可以分为四个部分内容区(content),内边距(padding),边框(border),外边距(margin)
+                            </p>
+                            <a href="article.html?id=9" class="cd-read-more"
+                                target="_blank">阅读全文</a>
+                            <span class="cd-date">2019-09-10</span>
+                        </div>
+                    </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                        </div>
+                        <div class="cd-timeline-content">
+                            <h2>Github-Markdown语法</h2>
+                            <p>使用markdown心得体会:
+                                    markdown特别适合写博客，兼容部分html标签，可以高亮显示代码。
+                                    语法简单好用，而且可以直接导出pdf。
+                                    各种语法组合，可以写出简单优雅的文档，赞！
+                            </p>
+                            <a href="article.html?id=10" class="cd-read-more"
+                                target="_blank">阅读全文</a>
+                            <span class="cd-date">2019-09-10</span>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="footer" id="footer">
+            <div>
+                <a href="#" class="fa fa-qq contact-logo">
+                    <img src="img/qq.jpg" alt="QQ二维码">
+                </a>
+                <a href="#" class="fa fa-wechat contact-logo">
+                    <img src="img/wechat.jpg" alt="wechat二维码">
+                </a>
+                <a href="https://github.com/sunshine2285/" class="fa fa-github contact-logo">
+                    <img src="img/github.png" alt="github">
+                </a>
+            </div>
+            <div>
+                © 2019 <a href="index.html" class="site-name">Sunshine</a> <span class="heart">❤️</span> Powered by 孙浩杰
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

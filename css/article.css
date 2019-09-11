@@ -1,0 +1,206 @@
+.backBlog {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    right: 80px;
+    bottom: 300px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.backBlog a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #242424;
+    transition: all 0.5s ease-in-out;
+}
+
+.backBlog a:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.gotoTop {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    right: 80px;
+    bottom: 150px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.gotoTop a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #242424;
+    transition: all 0.5s ease-in-out;
+}
+
+.gotoTop a:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color:#c44141;
+    margin: 40px;
+}
+
+.article-page {
+    margin: 80px auto;
+    min-height: calc(100vh - 260px);
+}
+
+
+.article-navigator {
+    margin: 30px 40px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.article-nav {
+    padding: 20px;
+}
+
+.article {
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.article h1 {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.article .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #78797a;
+}
+
+.article .header div {
+    margin: 10px 30px;
+}
+
+.article .header div i {
+    color: #444;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.article .header div:hover {
+    cursor: pointer;
+}
+
+.article .header div:hover span {
+    color: #2d98da;
+}
+
+
+.article blockquote {
+    background-color: #e9ecef;
+    margin: 20px 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-left: 10px #ddd solid;
+    font-weight: bold;
+    color: #888;
+}
+
+.article p {
+    margin: 0;
+}
+
+.article h2 {
+    margin: 30px 0px;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: #2d98da 8px solid;
+}
+
+.article h3,
+h4 {
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.article h5,
+h6 {
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.article ul {
+    margin-right: 40px;
+}
+
+.article li,
+p {
+    line-height: 40px;
+}
+
+.article>p {
+    padding: 0px 20px;
+}
+
+.article pre {
+    color: #F4F4F4;
+    background: #282C34;
+    padding: 20px 40px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.article table{
+    margin: 20px 0px;
+    padding: 10px 40px;
+    border: 2px solid #ddd;
+}
+.article table,
+th,
+td {
+    padding: 5px 10px;
+    color: #333;
+   
+}
+
+table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+table>tbody>tr>td{
+    border-top: 1px solid #ddd;
+}
+.article img{
+    display: block;
+    margin: 20px auto;
+    width: 95%;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}

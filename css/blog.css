@@ -1,0 +1,243 @@
+/* blog.css */
+.blog-page {
+    margin-top: 55px;
+}
+
+.article-list {
+    width: 80%;
+    min-height: calc(100vh - 175px);
+}
+
+.article {
+    background: #fff;
+    border-radius: 5px;
+    width: 75%;
+    margin: 30px auto;
+    padding: 10px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.article:hover .article-title,
+.article:hover .article-date{
+    color: #3498db;
+}
+.article:hover .article-content img{
+    transform: scale(1.05);
+}
+
+
+.article-header {
+    padding: 10px 0px;
+    margin: 0px 30px;
+    justify-content: space-between;
+    border-bottom: #eee 1.5px solid;
+}
+
+.article-header .source-type {
+    margin-right: 10px;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.article-header .article-title {
+    display: block;
+    font-size: 1.2rem;
+    color: #464746;
+    transition: all 0.3s;
+}
+
+.article-header .article-title:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.article-header .article-date {
+    color: #666;
+    transition: all 0.3s;
+}
+
+.article-content {
+    margin: 0px 30px;
+    padding: 10px 0px;
+    display: flex;
+}
+
+.article-content img {
+    width: 25%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+
+.article-content .article-summary {
+    width: 70%;
+    padding: 5px;
+    text-indent: 32px;
+    line-height: 2.5em;
+    color: #565756;
+}
+
+.article-footer {
+    margin: 0px 30px;
+    padding: 8px 5px;
+}
+
+.article-footer .article-tag {
+    margin: 0px 10px;
+    background-color: #f4f4f4;
+    border: #f0f0f0 1.5px solid;
+    padding: 3px 8px;
+    color: #242424;
+    border-radius: 2px;
+    font-size: small;
+    transition: all 0.5s;
+}
+
+.article-footer .article-tag:hover {
+    background-color: #44bd32;
+    color: #f4f4f4;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.article-view-number {
+    margin-left: 8px;
+    margin-right: 25px;
+    transition: all 0.3s;
+}
+
+.article-comment-number {
+    margin-left: 8px;
+    margin-right: 25px;
+    transition: all 0.3s;
+}
+
+.navgition-area {
+    width: 40%;
+    margin: 15px 15px 15px 15px;
+    position: fixed;
+    right: 30px;
+    top: 70px;
+}
+
+.article-set-box {
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.search {
+    background-color: #343434;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.search-box {
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+}
+
+.search-box input {
+    border-style: none;
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.search-box input:focus {
+    border-style: none;
+    outline: none;
+}
+
+.search-box input::-webkit-input-placeholder {
+    font-size: 14px;
+}
+
+.article-set {
+    display: block;
+    padding: 10px 10px 10px 40px;
+    background-color: #fff;
+    transition: all 0.1s;
+    color: #787977;
+}
+
+.article-set:hover {
+    border-right: #5c5c5c 8px solid;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.hot-article-box {
+    background-color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    margin: 20px 0px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.hot-article-box .title {
+    margin: 0px 15px;
+    padding: 15px 5px 10px 5px;
+    border-bottom: #bcbcbc 1px solid;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hot-article-item {
+    display: flex;
+    height: 40px;
+    padding-left: 30px;
+}
+
+.hot-article-item .order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: small;
+    font-weight: bold;
+}
+
+.order-first {
+    color: white;
+    background-color: #E24D46;
+}
+
+.order-second {
+    color: white;
+    background-color: #2EA7E0;
+}
+
+.order-third {
+    color: white;
+    background-color: #6Bc30D;
+}
+
+.order-others {
+    background-color: #EDEFEE;
+}
+
+
+.hot-article-item .hot-article-name {
+    color: #787977;
+    font-size: 14px;
+    /* width: 200px; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s;
+}
+
+.hot-article-item .hot-article-name:hover {
+    color: #3498db;
+    text-decoration: none;
+}
+
+/* mo */
+@media(wid)

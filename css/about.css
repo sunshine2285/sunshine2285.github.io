@@ -1,0 +1,53 @@
+.about-page {
+    padding: 30px 40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.about-page h1 {
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.about-page h1::after {
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    width: 30px;
+    height: 2px;
+    margin-left: -15px;
+    background: #777;
+    content: "";
+    transition: all 0.8s ease;
+}
+
+h1:hover::after {
+    width: 60px;
+    height: 2px;
+    margin-left: -30px;
+    content: "";
+}
+
+.about-content {
+    margin: 40px 0;
+}
+
+.about-content .about-content-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 15px;
+    margin: 20px 0px;
+    border-left: #2d98da 8px solid;
+}
+
+.about-content .about-content-body {
+    text-indent: 32px;
+}
+
+.about-content .about-content-body p:last-child {
+    padding-bottom: 15px;
+    border-bottom: 1px #eee solid;
+}

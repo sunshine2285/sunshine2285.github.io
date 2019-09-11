@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap4 核心 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap4.1.3/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+    <script src="bootstrap4.1.3/bootstrap.bundle.min.js"></script>
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="bootstrap4.1.3/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <!-- 自定义主页样式 -->
+    <link rel="stylesheet" href="css/atom-one-dark.min.css">
+    <link rel="shortcut icon" href="img/sunshine.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/article.css">
+    <script src="js/common.js"></script>
+    <script src="js/article.js"></script>
+    <script src="js/marked.min.js"></script>
+    <script src="js/highlight.min.js"></script>
+    <title>文章</title>
+</head>
+
+<body>
+    <!-- 加载动画 -->
+    <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="" id="top"></div>
+        <div class="backBlog" id="backBlog">
+            <a class="fa fa-angle-double-left" href="blog.html"></a>
+        </div>
+        <div class="gotoTop" id="gotoTop" style="display: none">
+            <a class="fa fa-angle-up" onclick="gotoTop()"></a>
+        </div>
+
+        <!-- 导航栏 -->
+        <nav class="navbar navbar-expand-sm navbar-dark mynav fixed-top" id="navbar">
+            <ul class="navbar-nav">
+                <a href="blog.html"><img class="logo" src="img/logo.png" alt="logo">
+                </a>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">主页</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="blog.html">博客</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">留言</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- 文章页面 -->
+        <div class="container article-page">
+            <div class="article-navigator">
+                <div>
+                    上一篇：
+                    <a id="preArticle"></a>
+                </div>
+                <div>
+                    下一篇：
+                    <a id="nextArticle"></a>
+                </div>
+            </div>
+            <div class="article">
+                <h1 id="title"></h1>
+                <div class="header">
+                    <div class="author">
+                        <i class="fa fa-user" title="作者"></i>
+                        <span id="author"></span>
+                    </div>
+                    <div class="date">
+                        <i class="fa fa-calendar" title="发布日期"></i>
+                        <span id="date"></span>
+                    </div>
+                    <div class="read">
+                        <i class="fa fa-eye" title="阅读量"> </i>
+                        <span id="views"></span>
+                    </div>
+                </div>
+                <div class="content" id="content">
+
+                </div>
+            </div>
+        </div>
+        <!-- 页脚 -->
+        <div class="footer" id="footer">
+            <div>
+                <a href="#" class="fa fa-qq contact-logo">
+                    <img src="img/qq.jpg" alt="QQ二维码">
+                </a>
+                <a href="#" class="fa fa-wechat contact-logo">
+                    <img src="img/wechat.jpg" alt="wechat二维码">
+                </a>
+                <a href="https://github.com/sunshine2285/" class="fa fa-github contact-logo">
+                    <img src="img/github.png" alt="github">
+                </a>
+            </div>
+            <div>
+                © 2019 <a href="index.html" class="site-name">Sunshine</a> <span class="heart">❤️</span> Powered by 孙浩杰
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

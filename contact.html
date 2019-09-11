@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap4 核心 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap4.1.3/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+    <script src="bootstrap4.1.3/bootstrap.bundle.min.js"></script>
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="bootstrap4.1.3/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+
+    <!-- 自定义主页样式 -->
+    <link rel="shortcut icon" href="img/sunshine.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <script src="js/common.js"></script>
+    <script src="js/contact.js"></script>
+    <title>博客</title>
+</head>
+
+<body>
+    <!-- 加载动画 -->
+    <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+    <div class="container-fluid">
+        <!-- 导航栏 -->
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top mynav">
+            <ul class="navbar-nav">
+                <a href="index.html"><img class="logo" src="img/logo.png" alt="logo">
+                </a>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">主页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">博客</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">关于</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">留言</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- 留言板页面 -->
+        <div class="container contact-page">
+            <div class="contact-header">
+                <lable class="title">留言板</lable>
+                <lable class="slogan">生命不息，折腾不止</lable>
+            </div>
+            <img class="contact-bg" src="img/contact-bg.jpg" alt="留言板背景" />
+            <div class="contact-body">
+                <div class="contact-way-box">
+                    <div class="slogan">若有心，天涯咫尺。<br />&emsp;&emsp;&emsp;若无缘，咫尺天涯</div>
+                    <div class="contact-way">
+                        <label>你可以通过以下方式联系我</label>
+                        <i class="fa fa-phone">17669713565</i>
+                        <i class="fa fa-wechat">geek-sunshine</i>
+                        <i class="fa fa-qq">2285981707</i>
+                        <i class="fa fa-github">sunshine2285</i>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <!-- <form onsubmit="comment()"> -->
+                        <div class="userinfo">
+                            <input type="text" class="form-control username" id="name" placeholder="Name">
+                            <input type="text" class="form-control " id="email" placeholder="Email">
+                        </div>
+                        <textarea class="form-control user-message" rows="6" id="content"
+                            placeholder="想说什么就大声说出来吧!"></textarea>
+                        <button onclick="comment()" class="btn btn-primary">Submit</button>
+                    <!-- </form> -->
+                </div>
+            </div>
+            <div class="contact-header">
+                <lable class="title">精选留言</lable>
+                <lable class="slogan">有趣的灵魂，万里挑一</lable>
+            </div>
+            <div class="message-box">
+                <div class="message" style="display: none">
+                    <div class="message-header">
+                        <span class="username"></span>
+                        <span class="email"></span>
+                    </div>
+                    <div class="message-content">           
+                    </div>
+                    <div class="message-footer">
+                        <span class="date"></span>
+                        <span>❤️</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="footer" id="footer">
+            <div>
+                <a href="#" class="fa fa-qq contact-logo">
+                    <img src="img/qq.jpg" alt="QQ二维码">
+                </a>
+                <a href="#" class="fa fa-wechat contact-logo">
+                    <img src="img/wechat.jpg" alt="wechat二维码">
+                </a>
+                <a href="https://github.com/sunshine2285/" class="fa fa-github contact-logo">
+                    <img src="img/github.png" alt="github">
+                </a>
+            </div>
+            <div>
+                © 2019 <a href="index.html" class="site-name">Sunshine</a> <span class="heart">❤️</span> Powered by 孙浩杰
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

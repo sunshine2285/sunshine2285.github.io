@@ -1,0 +1,165 @@
+/* contact-page.css */
+
+.contact-page {
+    margin: 20px auto;
+    margin-top: 80px;
+    position: relative;
+}
+
+.contact-header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-left: #242424 10px solid;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.contact-header .title {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 10px;
+}
+
+.contact-header .slogan {
+    font-family: "华文行楷";
+    font-size: 22px;
+}
+
+.contact-body {
+    /* position: absolute; */
+    top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.contact-bg {
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: -1;
+}
+
+.contact-bg::after{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: #ccc;
+    content: "123213213213";
+}
+
+.contact-way-box {
+    padding: 40px;
+}
+
+.contact-way-box .slogan {
+    font-family: "华文行楷";
+    color: #507DBC;
+    font-size: 20px;
+}
+
+.contact-way {
+    display: flex;
+    flex-direction: column;
+    /* color: #787977; */
+    margin-top: 15px;
+
+}
+
+.contact-way i {
+    color: #787977;
+    padding: 15px;
+    padding-left: 5px;
+}
+
+.contact-way i::first-letter {
+    padding: 0px 15px;
+    color: #242424;
+    font-size: 18px;
+}
+
+.contact-form {
+    padding: 50px 60px;
+    width: 720px;
+}
+
+.contact-form .userinfo {
+    display: flex;
+}
+
+.contact-form .userinfo .username {
+    width: 200px;
+    margin-right: 40px;
+}
+
+.contact-form .user-message {
+    margin: 20px 20px 20px 0;
+}
+
+.message-box {
+    margin: 15px 60px;
+    padding: 30px 0px;
+}
+
+.message-box .message {
+    background-color: #fdfdfd;
+    margin-bottom: 40px;
+    padding: 25px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    break-inside: avoid;
+}
+
+.message:hover {
+    box-shadow: 0px 0px 30px #888;
+}
+
+.message:hover .heart {
+    animation: beating 1s infinite;
+    animation-timing-function: ease-out;
+}
+
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px 10px 5px;
+    border-bottom: #eee 1.5px solid;
+}
+
+.message-header .username {
+    font-weight: bold;
+}
+
+.message-header .email {
+    color: #5c5c5c;
+}
+
+
+.message-content {
+    text-indent: 32px;
+    padding: 20px 25px;
+}
+
+.message-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px 0px 20px;
+}
+
+.message-footer .date {
+    color: grey;
+    font-size: 14px;
+}
