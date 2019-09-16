@@ -5,8 +5,9 @@ $(window).on("load", function () {
     }, 500);
 })
 
-// const localUrl = "http://localhost:8080/mysiteServer";
-const localUrl = "http://sunhaojie.site:8080/mysiteServer";
+const localUrl = "https://sunhaojie.club/web";
+// const localUrl = "http://sunhaojie.site:8080/mysiteServer";
+
 
 //获取url parameter函数
 function getUrlParam(name) {
