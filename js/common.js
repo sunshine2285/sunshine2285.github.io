@@ -5,7 +5,7 @@ $(window).on("load", function () {
     }, 500);
 })
 
-const localUrl = "https://sunhaojie.club/web";
+const localUrl = "https://sunhaojie.club/web/mysiteServer";
 // const localUrl = "http://sunhaojie.site:8080/mysiteServer";
 
 
